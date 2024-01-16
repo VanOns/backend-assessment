@@ -24,6 +24,6 @@ By contributing, you agree that your contributions will be licensed under its [M
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
 [code-of-conduct]: CODE_OF_CONDUCT.md
-[issues]: https://github.com/VanOns/[project-slug]/issues
-[discussions]: https://github.com/VanOns/[project-slug]/discussions
+[issues]: https://github.com/VanOns/backend-assessment/issues
+[discussions]: https://github.com/VanOns/backend-assessment/discussions
 [license]: LICENSE.md
