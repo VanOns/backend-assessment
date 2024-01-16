@@ -8,45 +8,11 @@ De assesment voor backend developers
 
 ## Quick start
 
-### Installation
 
-```bash
-# Composer
-composer require van-ons/backend-assessment
-
-# npm
-npm install @van-ons/backend-assessment
-
-# etc.
-```
-
-### Usage
-
-```php
-// How do you use this package?
-// Keep it brief, but give enough information to get started.
-// Extensive documentation can be provided in the docs folder.
-```
-
-## Documentation
-
-Please see the [documentation] for detailed information about installation and usage.
 
 ## Contributing
 
 Please see [contributing] for more information about how you can contribute.
-
-## Changelog
-
-Please see [changelog] for more information about what has changed recently.
-
-## Upgrading
-
-Please see [upgrading] for more information about how to upgrade.
-
-## Security
-
-Please see [security] for more information about how we deal with security.
 
 ## Credits
 
