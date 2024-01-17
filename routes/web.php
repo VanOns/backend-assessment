@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', \App\Http\Controllers\HomeController::class);
+
+Route::Resource('cheese-artisans', \App\Http\Controllers\CheeseArtisanController::class)->only('store');
+
+Route::Resource('dairy-farms', \App\Http\Controllers\DairyFarmController::class)->only('store');
