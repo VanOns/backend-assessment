@@ -4,6 +4,12 @@
     <h2 class="text-3xl font-bold">Van Ons Assessment</h2>
     <p class="text-gray-600 dark:text-gray-400">This is an assessment for Van Ons backend developers.</p>
 
+    @if(session('success'))
+        <div class="bg-green-500 text-white p-4 rounded-md my-4">
+            {{ session('success') }}
+        </div>
+    @endif
+
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
         <div>
             <h3 class="text-2xl font-bold">Dairy farms</h3>

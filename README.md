@@ -8,7 +8,7 @@ De assesment voor backend developers
 
 ## Quick start
 
-
+Fork deze repository en clone die naar je eigen machine. Open ```ASSESSEMENT.md``` en laat ons zien wat je kan! Veel succes!
 
 ## Contributing
 

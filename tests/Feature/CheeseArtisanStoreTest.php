@@ -6,7 +6,7 @@ use App\Models\CheeseArtisan;
 use App\Models\DairyFarm;
 use Tests\TestCase;
 
-class CheeseArtisanTest extends TestCase
+class CheeseArtisanStoreTest extends TestCase
 {
     public function test_the_cheese_artisan_store_returns_success(): void
     {

@@ -26,6 +26,18 @@ class DairyServicesTest extends TestCase
 
         $this->assertFalse($this->service->FarmNamesAreAnagrams('Test Dairy Farm', 'Test Dairy Farms'));
         $this->assertFalse($this->service->FarmNamesAreAnagrams('Dairy Farm', 'Farm Dairy Farm'));
-        $this->assertFalse($this->service->FarmNamesAreAnagrams('abcde', 'abcdf'));
+        $this->assertFalse($this->service->FarmNamesAreAnagrams('abcde', 'abcdfg'));
+    }
+
+    public function test_profit_from_milk(): void
+    {
+        $this->assertEquals(4, $this->service->ProfitFromMilk([1, 2, 3, 4, 5]));
+        $this->assertEquals(0, $this->service->ProfitFromMilk([5, 4, 3, 2, 1]));
+        $this->assertEquals(0, $this->service->ProfitFromMilk([1, 1, 1, 1, 1]));
+        $this->assertEquals(0, $this->service->ProfitFromMilk([1]));
+        $this->assertEquals(0, $this->service->ProfitFromMilk([]));
+        $this->assertEquals(0, $this->service->ProfitFromMilk([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+        $this->assertEquals(9, $this->service->ProfitFromMilk([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
+        $this->assertEquals(6, $this->service->ProfitFromMilk([1, 2, 3, 4, 5, 8, 10, 4]));
     }
 }
