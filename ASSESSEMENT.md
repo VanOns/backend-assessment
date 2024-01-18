@@ -30,7 +30,7 @@ Omdat het om een back-end opdracht gaat is het niet belangrijk hoe de UI van de 
 
 Om deze app te runnen heb je een aantal dingen nodig: 
 
-- PHP 8
+- PHP 8.1 (of hoger)
 - Composer
 - NodeJS
 - NPM
@@ -42,7 +42,7 @@ Zodra je deze hebt geinstalleerd kan je de volgende commandos uitvoeren:
 
 PHP heeft een ingebouwde webserver die je kan starten met ```php artisan serve```. De app is dan te bereiken op ```http://localhost:8000```.
 
-Voor deze opdracht gebruiken we een sqlite database zodat je sneller aan de slag kan. run ```touch database/database.sqlite``` om de database aan te maken. Pas in het ```.env``` file ```DB_DATABASE``` aan naar het absolute path van dat bestand. Daarna kan je ```php artisan migrate:fresh --seed``` runnen om de database te vullen met test data. Je kan zo ook de database resetten.
+Voor deze opdracht gebruiken we een sqlite database zodat je sneller aan de slag kan. Hij werkt out of the box, je hoeft alleen ```php artisan migrate:fresh --seed``` te runnen om hem te vullen met data. Je kan dit ook gebruiken om de database te resetten.
 
 Er zijn automatische tests geschreven voor deze applicatie. Deze kan je runnen met ```php artisan test```. De tests zijn te vinden in ```tests/Feature``` en ```tests/Unit```. Het is niet de bedoeling dat je de tests aanpast of verwijdert.
 
