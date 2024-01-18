@@ -1,21 +1,20 @@
 
 # Assessment
-
 Om te kunnen beoordelen of jouw development skills goed aansluiten bij het Van
-Ons team hebben we een kleine assessment voorbereid. Het doel is om een
+Ons team hebben we een assessment voorbereid. Het doel is om een
 typische “real world” situatie na te bootsen waarin je als het ware met een ticket
 uit de backlog van project X aan de slag gaat.
 
 ## Casus
-
 Voor een fictieve klant hebben we een app ontwikkeld die het mogelijk maakt om melkveehouders en kaas producenten te beheren. De app is gebouwd met Laravel en tailwind. De app is nog niet af en er zijn nog een aantal features die we graag willen toevoegen.
 
 - Er moeten relaties gelegd kunnen worden tussen melkveehouders en kaas producenten. Een melkveehouder kan meerdere kaas producenten hebben en een kaas producent kan meerdere melkveehouders hebben.
 - Je moet melkveehouders en kaas producenten kunnen toevoegen, bewerken en verwijderen.
-- Er zijn automatsche tests die nog niet slagen, deze moeten worden gefixed.
+- Er zijn automatische tests die nog niet slagen, deze moeten worden gefixed.
   - Een gedeelte van de tests hebben te maken met melkveehouders en kaas producenten dit gaat meer over je kennis van Laravel. (```tests/Feature/**```)
   - De rest van de tests zijn meer algemeen en gaan over je kennis van PHP.  (```tests/Unit/**```)
 - Als je klaar bent en tijd over hebt mag je zelf nog een feature toevoegen die je leuk lijkt en daar een test voor schrijven.
+  - bijv. TODO: Bedenken voorbeelden.
 
 ## Wat we van jou verwachten
 Het is aan jou om (a) te bedenken wat de beste aanpak is voor het implementeren van de gevraagde features en (b) de implementatie toe te passen.
@@ -27,7 +26,6 @@ Er staat een schatting van 8 uur voor deze opdracht. Dat is niet bindend en het 
 Omdat het om een back-end opdracht gaat is het niet belangrijk hoe de UI van de nieuwe features er uit ziet. “In het echt” zal er altijd een front-end developer bij betrokken worden. Daarom is voor deze assessment al wat basis HTML met tailwind opgezet, als je niet bekend bent met tailwind is dat geen probleem. Je mag altijd eigen css toevoegen ( ```app.css``` ) als je dat fijner vindt om mee te werken.
 
 ## Technische kanttekeningen
-
 Om deze app te runnen heb je een aantal dingen nodig: 
 
 - PHP 8.1 (of hoger)
@@ -47,9 +45,9 @@ Voor deze opdracht gebruiken we een sqlite database zodat je sneller aan de slag
 Er zijn automatische tests geschreven voor deze applicatie. Deze kan je runnen met ```php artisan test```. De tests zijn te vinden in ```tests/Feature``` en ```tests/Unit```. Het is niet de bedoeling dat je de tests aanpast of verwijdert.
 
 ## Wat we van je verwachten
-Probeer zo veel mogelijk van features te implementeren in de tijd die je hebt. Als je niet alles af krijgt is dat geen probleem. We zijn vooral benieuwd naar jouw stijl en hoeveel jij binnen een bepaald tijdsbestek kan neerzetten.
+Probeer zo veel mogelijk van features te implementeren in de tijd die je hebt. Als je niet alles af krijgt, is dat geen probleem. We zijn vooral benieuwd naar jouw stijl en hoeveel jij binnen een bepaald tijdsbestek kan neerzetten.
 
-Als je vast loopt of vragen mag je altijd advies vragen aan een van onze developers. Het is niet de bedoeling dat iemand anders code voor je schrijft maar we helpen je graag op weg. Zo gaat het ook in het echt.
+Als je vast loopt of vragen mag je altijd advies vragen aan een van onze developers. Het is niet de bedoeling dat iemand anders code voor je schrijft, maar we helpen je graag op weg. Zo gaat het ook in het echt.
 
 Commit alle code die je schrijft in de fork van de opdarcht die je had aangemaakt op github. Zorg er voor dat je repository public is zodat wij het kunnen bekijken. Als je klaar bent stuur je een link naar de repository naar [ikwilwerken@van-ons.nl](mailto:ikwilwerken@van-ons.nl)
 

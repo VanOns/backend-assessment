@@ -36,8 +36,8 @@ class DairyServicesTest extends TestCase
         $this->assertEquals(0, $this->service->ProfitFromMilk([1, 1, 1, 1, 1]));
         $this->assertEquals(0, $this->service->ProfitFromMilk([1]));
         $this->assertEquals(0, $this->service->ProfitFromMilk([]));
-        $this->assertEquals(0, $this->service->ProfitFromMilk([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
-        $this->assertEquals(9, $this->service->ProfitFromMilk([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
-        $this->assertEquals(6, $this->service->ProfitFromMilk([1, 2, 3, 4, 5, 8, 10, 4]));
+        $this->assertEquals(9, $this->service->ProfitFromMilk([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+        $this->assertEquals(0, $this->service->ProfitFromMilk([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
+        $this->assertEquals(9, $this->service->ProfitFromMilk([1, 2, 3, 10, 4, 5, 8, 4]));
     }
 }
