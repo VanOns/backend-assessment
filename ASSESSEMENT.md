@@ -13,8 +13,11 @@ Voor een fictieve klant hebben we een app ontwikkeld die het mogelijk maakt om m
 - Er zijn automatische tests die nog niet slagen, deze moeten worden gefixed.
   - Een gedeelte van de tests hebben te maken met melkveehouders en kaas producenten dit gaat meer over je kennis van Laravel. (```tests/Feature/**```)
   - De rest van de tests zijn meer algemeen en gaan over je kennis van PHP.  (```tests/Unit/**```)
-- Als je klaar bent en tijd over hebt mag je zelf nog een feature toevoegen die je leuk lijkt en daar een test voor schrijven.
-  - bijv. TODO: Bedenken voorbeelden.
+- Als je klaar bent en tijd over hebt, mag je zelf nog een feature toevoegen die je leuk lijkt en daar een test voor schrijven.
+  - bijv. Berekenen hoeveel kaas een kaas producent kan maken met de melk van een melkveehouder.
+  - bijv. melkveehouders een rating van een kaas producent kunnen geven.
+  - bijv. prijzen van melkveehouders en kaas producenten kunnen toevoegen en berekenen hoeveel winst een van het verkopen van kaas na het kopen van melk.
+  
 
 ## Wat we van jou verwachten
 Het is aan jou om (a) te bedenken wat de beste aanpak is voor het implementeren van de gevraagde features en (b) de implementatie toe te passen.
@@ -49,7 +52,7 @@ Probeer zo veel mogelijk van features te implementeren in de tijd die je hebt. A
 
 Als je vast loopt of vragen mag je altijd advies vragen aan een van onze developers. Het is niet de bedoeling dat iemand anders code voor je schrijft, maar we helpen je graag op weg. Zo gaat het ook in het echt.
 
-Commit alle code die je schrijft in de fork van de opdarcht die je had aangemaakt op github. Zorg er voor dat je repository public is zodat wij het kunnen bekijken. Als je klaar bent stuur je een link naar de repository naar [ikwilwerken@van-ons.nl](mailto:ikwilwerken@van-ons.nl)
+Commit alle code die je schrijft in de fork van de opdarcht die je had aangemaakt op github. Zorg er voor dat je repository public is zodat wij het kunnen bekijken. Als je klaar bent stuur je een link van de repository naar [ikwilwerken@van-ons.nl](mailto:ikwilwerken@van-ons.nl) samen met een screenshot dat alle tests slagen.
 
 ### Om je wat op weg te helpen als je niet super bekend bent met Laravel:
 Er zijn een database migrations files aangemaakt (database/migrations/2024_01_16_165518_create_dairy_farms_table.php en database/migrations/2024_01_16_165727_create_cheese_artisans_table.php) voor het opslaan van de data. [Hier](https://laravel.com/docs/10.x/migrations#tables) kan je meer lezen over hoe je migrations kan gebruiken en toevoegen.
@@ -58,7 +61,7 @@ Er is een Cheese artisan & Dairy Farm models (app/Models/CheeseArtisan.php & app
 
 Er is een Cheese artisan & Dairy Farm controller (app/Http/Controllers/CheeseArtisanController.php & app/Http/Controllers/DairyFarmController.php) via controllers kan je de data uit de database ophalen en doorgeven aan de views. [Hier](https://laravel.com/docs/10.x/controllers) kan je iets meer lezen over hoe je controllers kan gebruiken. Hier zal jij de meeste code moeten schrijven. De methodes van deze controllers worden aangeroepen door de routes (routes/web.php). [Hier](https://laravel.com/docs/10.x/routing) kan je iets meer lezen over hoe je routes kan gebruiken.
 
-De home route returnt een template (resources/views/home.blade.php). [Hier](https://laravel.com/docs/10.x/views) kan je lezen over hoe je blade templates markup kan definieren.
+De home route geeft een template (resources/views/home.blade.php) terug. [Hier](https://laravel.com/docs/10.x/views) kan je lezen over hoe je blade template markup kan definieren.
 
 ---
 
