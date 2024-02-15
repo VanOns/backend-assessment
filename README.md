@@ -1,16 +1,34 @@
-# Open Source Template
+<p align="center"><img src="art/social-card.png" alt="Social card of Backend Assessment"></p>
 
-This is a template repository for Van Ons open source projects. It contains a set of files and folders that are mandatory to use
-in order to maintain a single, consistent repository style and layout, as well as additional files and folders that
-could be useful, but are not required.
+# Backend Assessment
 
-## Usage
+<!-- BADGES -->
 
-1. Download this repository to your local machine.
-2. Run the `init.sh` script to initialize the repository.
-3. Update the `README.md` file with the correct information.
-4. Generate a social card and add it as `art/social-card.png`.
-5. Set the repository's social media preview to the same header used in `README.md`.
-6. Set up the documentation in the `docs` directory.
-7. After veryfing that everything is correct, delete the `.backup` directory
-8. Push the changes to the remote repository.
+De assesment voor backend developers
+
+## Quick start
+
+Fork deze repository en clone die naar je eigen machine. Open ```ASSESSEMENT.md``` en laat ons zien wat je kan! Veel succes!
+
+## Contributing
+
+Please see [contributing] for more information about how you can contribute.
+
+## Credits
+
+We would like to thank the following contributors for their contributions to this project:
+
+* [All Contributors][all-contributors]
+
+## License
+
+The scripts and documentation in this project are released under the [MIT License][license].
+
+---
+
+<p align="center"><a href="https://van-ons.nl/" target="_blank"><img src="https://opensource.van-ons.nl/files/cow.png" width="50" alt="Logo of Van Ons"></a></p>
+
+[contributing]: CONTRIBUTING.md
+[email]: mailto:opensource@van-ons.nl
+[all-contributors]: ../../contributors
+[license]: LICENSE.md
