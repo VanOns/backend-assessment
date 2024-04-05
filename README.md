@@ -4,11 +4,11 @@
 
 <!-- BADGES -->
 
-De assesment voor backend developers
+De assessment voor backend developers.
 
 ## Quick start
 
-Fork deze repository en clone die naar je eigen machine. Open ```ASSESSEMENT.md``` en laat ons zien wat je kan! Veel succes!
+Fork deze repository en clone die naar je eigen machine. Open [assessment] en laat ons zien wat je kan! Veel succes!
 
 ## Contributing
 
@@ -28,6 +28,7 @@ The scripts and documentation in this project are released under the [MIT Licens
 
 <p align="center"><a href="https://van-ons.nl/" target="_blank"><img src="https://opensource.van-ons.nl/files/cow.png" width="50" alt="Logo of Van Ons"></a></p>
 
+[assessment]: ASSESSMENT.md
 [contributing]: CONTRIBUTING.md
 [email]: mailto:opensource@van-ons.nl
 [all-contributors]: ../../contributors
