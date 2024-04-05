@@ -27,9 +27,9 @@ class DairyServices
     }
 
     /**
-     * Return the best profit that can be made from buying and selling milk.
+     * Find the most profit that can be made from buying and selling milk.
      *
-     * Find the best day to buy milk and choose a different day in the future to sell it.
+     * Find the best day to buy milk and choose a different day in the future to sell it, the profit is the difference in price. Return the maximum profit or 0 if no profit can be made.
      *
      * Example: [1, 2, 3, 4, 5] should return 4 because you can buy milk for $1 and sell it for $5.
      * Example: [5, 4, 3, 2, 1] should return 0 because you cannot make a profit.
