@@ -1,6 +1,6 @@
 <?php
 
-namespace Feature;
+namespace Tests\Feature;
 
 use App\Models\CheeseArtisan;
 use App\Models\DairyFarm;
