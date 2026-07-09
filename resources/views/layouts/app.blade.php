@@ -8,18 +8,28 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700&display=swap" rel="stylesheet"/>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="antialiased">
-<div
-    class="relative sm:justify-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+<body class="min-h-screen bg-cream font-sans text-ink antialiased selection:bg-brand selection:text-white">
+    <header class="border-b border-ink/10">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+            <a href="/" class="flex items-center gap-3">
+                <span class="text-lg font-semibold tracking-tight">Backend Assessment</span>
+            </a>
+        </div>
+    </header>
 
-    <div class="container mx-auto pt-3 text-gray-900 dark:text-gray-100">
+    <main class="mx-auto max-w-6xl px-6 py-12">
         @yield('content')
-    </div>
-</div>
+    </main>
+
+    <footer class="mt-20 bg-ink text-neutral-400">
+        <div class="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-12 text-center">
+            <p class="text-sm">&copy; {{ date('Y') }} Van Ons</p>
+        </div>
+    </footer>
 </body>
 </html>

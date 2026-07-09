@@ -1,20 +1,34 @@
 @import 'tailwindcss';
 
-input {
-    color: black
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-cream: #f4f0e7;
+    --color-ink: #14130f;
+    --color-brand: #2b4bf2;
+    --color-brand-dark: #1e34d1;
+    --color-coral: #ee5a36;
 }
 
-table
-{
-    border-collapse: collapse;
-    border: 1px solid black;
-    max-width: 100%;
-    overflow: scroll;
-}
+@layer components {
+    .field-label {
+        @apply block text-sm font-medium text-neutral-600;
+    }
 
-th, td
-{
-    border: 1px solid gray;
-    text-align: left;
-    padding: 0.2rem 0.5rem;
+    .field-input {
+        @apply w-full rounded-xl border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900
+            shadow-sm transition placeholder:text-neutral-400
+            focus:border-brand focus:ring-2 focus:ring-brand/25 focus:outline-none;
+    }
+
+    .btn-primary {
+        @apply inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-semibold
+            text-white transition hover:bg-brand-dark focus:ring-2 focus:ring-brand/40 focus:outline-none;
+    }
+
+    .pill {
+        @apply inline-flex items-center rounded-full border border-neutral-300 bg-white/60 px-3 py-1
+            text-xs font-medium text-neutral-700;
+    }
 }
