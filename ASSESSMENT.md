@@ -45,7 +45,7 @@ samen met een screenshot waarin te zien is dat alle tests slagen.
 
 Om deze app te runnen heb je een aantal dingen nodig: 
 
-- PHP 8.2
+- PHP 8.5
 - Composer
 - NodeJS
 - NPM
