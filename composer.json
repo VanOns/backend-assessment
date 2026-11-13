@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.5",
+        "composer": ">=2.11",
         "guzzlehttp/guzzle": "^7.9",
         "laravel/framework": "^13.8",
         "laravel/sanctum": "^4.0",
@@ -58,6 +59,14 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
+        },
+        "policy": {
+            "cooldown": {
+                "period": "3 days",
+                "ignore": {
+                    "van-ons/*": "Our own packages, installed from VCS"
+                }
+            }
         }
     },
     "minimum-stability": "stable",
